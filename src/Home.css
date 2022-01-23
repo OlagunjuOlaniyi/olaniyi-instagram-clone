@@ -1,0 +1,100 @@
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background-color: #fff;
+  padding: 20px 160px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .app__header {
+    padding: 20px;
+  }
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__navLink {
+  display: flex;
+  align-items: center;
+}
+
+.app__navLink a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 28px;
+  margin: 0px 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .app__navLink a {
+    margin: 0px 5px;
+  }
+
+  .app__navLink .app__navLink-Mob {
+    display: none;
+  }
+
+  /* .app__navLink a:nth-child(1) {
+    display: none;
+  /* } */
+
+  /* .app__navLink a:nth-child(3) {
+    display: none;
+  } */
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postLeft {
+  margin-right: 340px;
+}
+
+.app__postRight {
+  margin-left: 20px;
+  width: 530px;
+  /* background-color: lightgray; */
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 100px 20px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 980px) {
+  .app__postRight {
+    display: none;
+  }
+
+  .app__postLeft {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app__postRight {
+    width: 400px;
+  }
+}

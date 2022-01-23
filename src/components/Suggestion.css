@@ -1,0 +1,53 @@
+.suggestion__container {
+  /* background-color: lightgray; */
+  width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .suggestion__container {
+    width: 100%;
+  }
+}
+
+/* .suggestion__container div {
+  margin: 10px 0;
+} */
+
+.suggestion__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.suggestion__mainInfo {
+  display: flex;
+}
+
+.suggestion__mainInfo p {
+  color: gray;
+}
+
+.suggestion__avatar {
+  margin-right: 10px;
+}
+
+.suggestion__mainInfoBtn {
+  text-transform: lowercase;
+}
+
+.suggestion__forYou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion__forYou p {
+  font-weight: 600;
+  color: gray;
+}
+
+.suggestion__others .suggestion__mainInfoDetail,
+.suggestion__others .suggestion__mainInfoBtn {
+  font-size: 13px;
+}

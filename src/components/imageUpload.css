@@ -1,0 +1,22 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 10px; */
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  /* .app__navLink a:nth-child(1) {
+    display: block;
+  }
+  .app__navLink a:nth-child(3) {
+    display: block;
+  } */
+}
